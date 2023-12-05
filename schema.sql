@@ -5,3 +5,7 @@ CREATE TABLE IF NOT EXISTS movie (
     rating   INT          NOT NULL,
     PRIMARY KEY (movie_id)
 );
+
+select * from movie;
+
+select current_database();
